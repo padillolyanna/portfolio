@@ -41,7 +41,7 @@ export default function CatalogClient() {
       </div>
 
       {/* Category Filter Tabs */}
-      <div className="flex flex-wrap gap-2 mb-10 sticky top-16 py-4 bg-[#FAFAF8] z-10 -mx-6 px-6">
+      <div className="flex flex-wrap gap-2 mb-10 sticky top-16 py-4 bg-white z-10 -mx-6 px-6">
         {categories.map((cat) => (
           <button
             key={cat}
